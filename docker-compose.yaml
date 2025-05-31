@@ -1,0 +1,74 @@
+services:
+  mariadb:
+    image: mariadb:latest
+    container_name: compmerca-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: tt
+      MYSQL_DATABASE: Compmerca
+      MYSQL_USER: Compmerca
+      MYSQL_PASSWORD: xX_AldryñMola_Xx
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./VarLib:/var/lib/mysql
+    networks:
+      - compmerca-backend
+
+  django:
+    image: aldryn6/compmerca-backend:latest
+    container_name: compmerca-api
+    restart: unless-stopped
+    depends_on:
+      - mariadb
+    environment:
+      DATABASE_HOST: compmerca-db
+      DATABASE_PORT: 3306
+      DATABASE_NAME: Compmerca
+      DATABASE_USER: Compmerca
+      DATABASE_PASSWORD: xX_AldryñMola_Xx
+      OMP_NUM_THREADS: 1
+      MKL_NUM_THREADS: 1
+    ports:
+      - "8008:8000"
+    networks:
+      - compmerca-backend
+    device_requests:
+      - driver: nvidia
+        count: all
+        capabilities: [gpu]
+
+  scrappers:
+    container_name: mondongo
+    image: aldryn6/proyecto:latest
+    ports:
+      - "3310:8080"
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: ./Scrapers
+        target: /opt/python_data
+    networks:
+      - compmerca-backend
+    hostname: mondongo
+
+  frontend:
+    image: aldryn6/compmerca-ionic:latest
+    container_name: compmerca-frontend
+    hostname: compmerca-frontend
+    restart: unless-stopped
+    ports:
+      - "8000:80"
+    cpu_shares: 90
+    deploy:
+      resources:
+        limits:
+          memory: 4096M
+    labels:
+      icon: https://icon.casaos.io/main/all/compmerca-ionic.png
+    networks:
+      - compmerca-backend
+
+networks:
+  compmerca-backend:
+    name: compmerca-backend
