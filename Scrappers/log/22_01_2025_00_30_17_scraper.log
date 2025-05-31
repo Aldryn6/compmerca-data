@@ -1,0 +1,22 @@
+2025-01-22 00:30:17,337 - WARNING - Scrapeo iniciado.
+2025-01-22 00:33:24,019 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/helados/barquillos/cat460012/c?offset=0: 500
+2025-01-22 00:38:03,418 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/helados/frutas-heladas/cat460009/c?offset=0: 500
+2025-01-22 00:38:39,874 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/helados/conos/cat460004/c?offset=0: 500
+2025-01-22 00:47:26,038 - ERROR - Error al decodificar JSON de la respuesta en https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/productos-frescos/panaderia-tradicional/pdteborrar-pdteborrar-pdteborrar-pan-de-molde-tostado-y-picos/cat20163/c?offset=0
+2025-01-22 00:48:36,688 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/helados/bloques/cat460002/c?offset=0: 500
+2025-01-22 00:49:34,720 - ERROR - Error al decodificar JSON de la respuesta en https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/productos-frescos/panaderia-tradicional/pdteborrar-pdteborrar-masa-fresca-y-bases/cat20162/c?offset=0
+2025-01-22 00:51:39,788 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/helados/tartas-heladas/cat460010/c?offset=0: 500
+2025-01-22 00:55:18,949 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/aperitivos/frutas-desecadas/cat390004/c?offset=48 (1/3)
+2025-01-22 00:56:04,745 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/helados/polos/cat460006/c?offset=0: 500
+2025-01-22 00:58:00,741 - ERROR - Error al decodificar JSON de la respuesta en https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/productos-frescos/panaderia-tradicional/pdteborrar-pdteborrar-magdalenas-dulces-y-bollos/cat20161/c?offset=0
+2025-01-22 00:58:01,148 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/helados/sandwiches/cat460005/c?offset=0: 500
+2025-01-22 01:00:34,883 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/bebidas/cerveza/tostada-roja/cat20190/c?offset=48 (1/3)
+2025-01-22 01:03:46,978 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/helados/bombon/cat460003/c?offset=0: 500
+2025-01-22 01:04:12,878 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/mascotas/conejos-y-roedores/pienso-para-conejos-y-rodeores/cat20368/c?offset=0 (1/3)
+2025-01-22 01:04:47,311 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/limpieza-y-hogar/productos-para-toda-la-casa/insecticidas/cat20311/c?offset=48 (1/3)
+2025-01-22 01:05:01,344 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/helados/tarrinas/cat460007/c?offset=0: 500
+2025-01-22 01:10:19,215 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/productos-frescos/platos-preparados-cocinados/pastas-y-pizzas/cat180024/c?offset=48 (1/3)
+2025-01-22 01:11:19,588 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/helados/hielo/cat460011/c?offset=0: 500
+2025-01-22 01:12:53,062 - WARNING - Scrapeo terminado.
+2025-01-22 01:12:53,194 - WARNING - Limpiando duplicados en output/productos_carrefour.csv, número de elementos duplicados: 13
+2025-01-22 01:12:53,382 - WARNING - Limpiando duplicados en output/productos_carrefour.csv, número de elementos duplicados: 0

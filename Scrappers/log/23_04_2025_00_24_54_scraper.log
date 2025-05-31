@@ -1,0 +1,7 @@
+2025-04-23 00:24:54,146 - WARNING - Scrapeo iniciado.
+2025-04-23 00:24:59,614 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/alimentacion/harinas-y-levaduras/cat20070/c?offset=0 (1/3)
+2025-04-23 00:25:18,404 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/bebe/perfumeria-e-higiene/jabon-liquido/cat20343/c?offset=0 (1/3)
+2025-04-23 00:25:57,923 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/panaderia-bolleria-y-pasteleria/bolleria/cat21319210/c?offset=0 (1/3)
+2025-04-23 00:26:16,655 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/panaderia-bolleria-y-pasteleria/bolleria/cat21319210/c?offset=96 (1/3)
+2025-04-23 00:28:13,804 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/desayuno/cafes/cat26102046/c?offset=168 (1/3)
+2025-04-23 00:28:45,162 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/perfumeria-e-higiene/higiene-intima/toallitas-y-geles-intimos/cat20244/c?offset=24 (1/3)

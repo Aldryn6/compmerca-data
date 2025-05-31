@@ -1,0 +1,4 @@
+2025-01-16 00:34:34,534 - WARNING - Scrapeo iniciado.
+2025-01-16 00:34:44,383 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/la-despensa/alimentacion/harinas-y-levaduras/cat20070/c?offset=48 (1/3)
+2025-01-16 00:34:49,697 - ERROR - Error 403: Reintentando acceso a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/perfumeria-e-higiene/bano-e-higiene-corporal/sales-de-bano/cat20211/c?offset=0 (1/3)
+2025-01-16 00:35:20,461 - ERROR - Error al acceder a https://www.carrefour.es/cloud-api/plp-food-papi/v1/supermercado/limpieza-y-hogar/bazar/bombillas-y-tubos/cat20256/c?offset=0: 500
